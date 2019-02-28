@@ -5,7 +5,7 @@ pipeline:
   create_cluster:
     image: banzaicloud/ci-pipeline-client:0.10
     cluster:
-      name: JasonChinsenu3rz
+      name: banzaicloud1ivo
       location: us-west-2
       cloud: amazon
       secretId: 37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f
