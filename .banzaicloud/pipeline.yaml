@@ -55,7 +55,7 @@ pipeline:
       DOCKER_USERNAME:
         keyRef: username
         name: docker-hub
-    tags: '{{ trunc 7 .CICD_COMMIT_SHA }}'
+    tags: latest
   package_application:
     when:
       branch:
