@@ -47,7 +47,7 @@ pipeline:
   build_image:
     dockerfile: Dockerfile
     image: plugins/docker
-    repo: onzyone/banzai:latest
+    repo: onzyone/banzai
     secretFrom:
       DOCKER_PASSWORD:
         keyRef: password
